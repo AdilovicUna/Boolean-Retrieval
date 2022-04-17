@@ -116,7 +116,7 @@ def evaluate(a, op, b):
 
     if op == "AND":
         return a.intersection(b)
-    if op == "OR":cd 
+    if op == "OR":
         return a.union(b)
     if op == "AND NOT":
         return a - b
@@ -150,7 +150,7 @@ def loop_query_file(filepath):
         elif "query" in line:
             query = strip_tag("query", line)
             doc_ids = eval_query(split_query(query))
-            s = ""
+            s = "a"
             for id in doc_ids:
                 s += id + '\n'
 
