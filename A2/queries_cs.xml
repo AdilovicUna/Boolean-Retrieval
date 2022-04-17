@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topics>
+<top lang="cs">
+<num>10.2452/401-AH</num>
+<title>Inflace Eura</title>
+<query>inflace AND Euro AND NOT fotbal</query>
+<desc>Najděte dokumenty o růstu cen po zavedení Eura.</desc>
+<narr>Relevantní jsou jakékoliv dokumenty, které poskytují informace o růstu cen v jakékoliv zemi, v níž byla zavedena společná evropská měna.</narr>
+</top>
+<top lang="cs">
+<num>10.2452/402-AH</num>
+<title>Obnovitelné zdroje</title>
+<query>obnovitelný AND zdroj</query>
+<desc>Hledáme informace o využití energie z obnovitelných zdrojů.</desc>
+<narr>Máme zájem o využití energie z tzv. obnovitelných zdrojů. Jde nám o zdroje jako je biomasa, vodní energie, solární, a geotermální energie či energie větru.  Informace o ekologických vozidlech nejsou relevantní.</narr>
+</top>
+<top lang="cs">
+<num>10.2452/403-AH</num>
+<title>Role policisty</title>
+<query>policista OR policie AND film AND role</query>
+<desc>Najděte dokumenty, jež podávají informace o hercích, kteří ve filmech či televizi hráli role policistů.</desc>
+<narr>Relevantní dokumenty zmiňují název filmu, hry či seriálu, dále pak jméno herce či herečky, kteří hráli roli policisty či policistky.</narr>
+</top>
+<top lang="cs">
+<num>10.2452/404-AH</num>
+<title>Summit NATO a bezpečnostní opatření</title>
+<query>summit AND NATO AND opatření</query>
+<desc>Summit NATO a přijatá bezpečnostní opatření v místech konání.</desc>
+<narr>Hledáme informace o bezpečnostních opatřeních, která byla provedena v místech konání summitů po celém světě. &#13;
+Informace o incidentech, domonstracích a protestních akcích, které summit provázely nejsou relevantní.</narr>
+</top>
+<top lang="cs">
+<num>10.2452/405-AH</num>
+<title>Astma u dětství</title>
+<query>astma AND děti AND příčina</query>
+<desc>Jaké příčiny může mít astma u dětí?</desc>
+<narr>Relevantní dokumenty uvádějí některé či hlavní faktory, o nichž se domníváme, že jsou příčinou vzniku astmatu u dětí.</narr>
+</top>
+<top lang="cs">
+<num>10.2452/406-AH</num>
+<title>Animované filmy</title>
+<query>animovaný AND film AND ocenění AND festival</query>
+<desc>Najděte dokumenty o animovaných filmech, které byly navrženy na nějaké ocenění.</desc>
+<narr>Relevantní dokumenty zmiňují alespoň jeden animovaný film, který byl prezentován na filmovém festivalu s šancemi na výhru, nebo byl navržen na ocenění nezávisle na jakémkoliv festivalu.</narr>
+</top>
+<top lang="cs">
+<num>10.2452/407-AH</num>
+<title>Australský premiér</title>
+<query>australský  OR Austrálie AND premiér</query>
+<desc>Kdo byl australským premiérem v roce 2002?</desc>
+<narr>Relevantní dokumenty musí uvádět jméno australského předsedy vlády, který byl v úřadu v roce 2002.</narr>
+</top>
+<top lang="cs">
+<num>10.2452/408-AH</num>
+<title>Klonování lidí</title>
+<query>lid OR člověk AND klonování</query>
+<desc>Hledáme jakékoliv informace o klonování lidí  včetně pokusů o vytvoření prvního lidského klonu.</desc>
+<narr>Máme zájem o informace o pokrocích na poli klonování lidských embryí. Zajímájí nás organizace zabývající se klonováním, metody klonování,  využítí poznatků o klonování v medicíně a zákony regulující tuto problematiku. Etické otázky klonování  nejsou předmětem našeho zájmu.</narr>
+</top>
+<top lang="cs">
+<num>10.2452/409-AH</num>
+<title>Automobilové bombové útoky na Bali</title>
+<query>bomba OR terorismus AND Bali</query>
+<desc>Získejte dokumenty pojednávající o národnostech obětí teroristických bombových útoků pomocí automobilů na indonézském Bali v roce 2002.</desc>
+<narr>Relevantní dokumenty musí zmiňovat národnosti či země původu obětí indonézských bombových útoků za pomoci automobilů.</narr>
+</top>
+<top lang="cs">
+<num>10.2452/410-AH</num>
+<title>Porušení programu jaderných zbraní Severní Koreou</title>
+<query>Severní AND Korea AND dohoda AND jaderný AND 1984 </query>
+<desc>Najděte dokumenty poskytující důkazy o tom, že Severní Korea porušuje dohodu o jaderných zbraních z roku 1994, v níž se zavázala zastavit svůj program jaderných zbraní.</desc>
+<narr>Relevantní dokumenty mají obsahovat informace např. o přesunu paliva do reaktorů nebo zamezení kontroly elektráren Spojenými národy. Přiznání Severní Koreje k obnově výroby jaderných zbraní, jsou též podstatná. Nicméně nepodložená tvrzení jiných vlád či novinářů, nebo výhrůžky Severní Koreji o další možné produkci v budoucnu nejsou relevantní.</narr>
+</top>
+<top lang="cs">
+<num>10.2452/411-AH</num>
+<title>Oskar za nejlepší film</title>
+<query>Oskar AND cena AND film AND režisér</query>
+<desc>Jaký titul získal v březnu 2002 Oskara za nejlepší film?</desc>
+<narr>Relevantní dokumenty musí obsahovat nejen jméno filmu, ale i režiséra.</narr>
+</top>
+<top lang="cs">
+<num>10.2452/412-AH</num>
+<title>Knihy o politicích</title>
+<query>kniha OR bigrafie OR prospekt AND politika </query>
+<desc>Najděte dokumenty, které hovoří o knihách věnovaných politikům.</desc>
+<narr>Relevantní dokumenty diskutují či recenzují knihy věnované politikům, např. biografie, prospekty, sbírky anekdot atd.</narr>
+</top>
+<top lang="cs">
+<num>10.2452/413-AH</num>
+<title>Snižování rizika onemocnění cukrovkou</title>
+<query>snižení AND riziko AND cukrovka</query>
+<desc>Najděte dokumenty zmiňující faktory, které snižují riziko onemocnění cukrovkou.</desc>
+<narr>Relevantní dokumenty hovoří nejméně o jednom faktoru, o němž se odborníci domnívají, že má preventivní účinky nebo snižuje riziko cukrovky jakéhokoliv typu.</narr>
+</top>
+<top lang="cs">
+<num>10.2452/414-AH</num>
+<title>Pivní festivaly</title>
+<query>pivní AND festival OR Oktoberfest</query>
+<desc>Najděte dokumenty, které popisují pivní festivaly, jako je Oktoberfest nebo podobné.</desc>
+<narr>Relevantní dokumenty musí zmiňovat místo konání příslušného pivního festivalu.</narr>
+</top>
+<top lang="cs">
+<num>10.2452/415-AH</num>
+<title>Drogy</title>
+<query>drogy OR závislost OR drogový AND NOT kontraband</query>
+<desc>Problematika drog a drogově závislých.</desc>
+<narr>Máme zájem o informace o řešení problematiky drogově závislých v jednoltivých zemích či regionech. Zajímají nás informace o drogových krizových centrech, o snahách o legalizaci některých drog, o práci tzv. "streetworkerů" a dále pak informace o prevenci šíření infekčních chorob u drogově závislých. Informace o prevenci užívání omamných látek, kterou provádějí samotní bývalí narkomani, jsou přijatelné.Informace o trestných činech souvisejících s výrobou a užíváním drog či informace o zabaveném kotrabandu  Celní správou či policií relevantní nejsou.</narr>
+</top>
+<top lang="cs">
+<num>10.2452/416-AH</num>
+<title>Rukojmí v moskevském divadle</title>
+<query>moskva OR rusko AND divadlo AND rukojmí</query>
+<desc>Jak ruské vládní orgány ukončily krizi v moskevském divadle, v němž čečenští rebelové drželi asi 700 rukojmí?</desc>
+<narr>Zajímají nás zprávy o závěrečné akci organizované ruskými orgány k ukončení zadržování rukojmích skupinou čečenských rebelů a o výsledcích jejich akcí. Dokumenty o zadržování rukojmích bez informací, jak bylo ukončeno, nejsou relevantní.</narr>
+</top>
+<top lang="cs">
+<num>10.2452/417-AH</num>
+<title>Únosy letadel</title>
+<query>únos AND letadlo AND islám</query>
+<desc>Hledáme informace o únosech letadel či o pokusech o únos letadla.</desc>
+<narr>Máme zájem o informace o únosech letadel či o pokusech o únos letadla, včetně únosu letadla islámskými radikály dne 11. září 2001.</narr>
+</top>
+<top lang="cs">
+<num>10.2452/418-AH</num>
+<title>Prohlášení Bülenta Ecevita</title>
+<query>Bülent OR Ecevit AND prohlášení AND NOT nemoc</query>
+<desc>Hledáme dokumenty, které zaznamenávají veřejná prohlášení tureckého ministerského předsedy Bülenta Ecevita.</desc>
+<narr>Relevantní jsou dokumenty, které obsahují jakékoliv veřejné prohlášení tureckého ministerského předsedy Bülenta Ecevita. Dokumenty, které hovoří o Ecevitově politice či jeho vážné nemoci, aniž by Ecevita citovaly, nás nezajímají.</narr>
+</top>
+<top lang="cs">
+<num>10.2452/419-AH</num>
+<title>Úložiště jaderného odpadu</title>
+<query>úložiště OR uchování AND jaderný AND odpad</query>
+<desc>Hledáme dokumenty diskutující výhody či nevýhody využívání určených kontrolovaných a centralizovaných míst k uchování jaderného odpadu.</desc>
+<narr>Dokumenty pojednávající o otázkách, jež se vztahují k uchování jaderného odpadu v určitých lokalitách, relevantní nejsou. Relevantní články musí diskutovat užitečnost či nebezpečí centralizovaných úložišť jaderného odpadu ve srovnání s rozptýlením jaderného odpadu na mnoha různých místech.</narr>
+</top>
+<top lang="cs">
+<num>10.2452/420-AH</num>
+<title>Obezita a zdravotní problémy</title>
+<query>obezita OR nadváha OR váha AND nemoc</query>
+<desc>Jaké zdravotní problémy mohou být alespoň částečně způsobeny nadváhou či obezitou?</desc>
+<narr>Relevantní jsou jakékoliv dokumenty, které diskutují způsoby, jimiž nadměrná tělesná váha či obezita zhoršují zdravotní stav a které udávají alespoň jednu patřičnou chorobu či skupinu chorob.</narr>
+</top>
+<top lang="cs">
+<num>10.2452/421-AH</num>
+<title>Olympijské medaile sourozenců Kosteličových</title>
+<query>Kostelič OR Kosteličová OR Kosteličovy AND olympiáda AND medaile</query>
+<desc>Jaké medaile získali sourozenci Kosteličovi na zimní olympiádě v roce 2002?</desc>
+<narr>Zajímají nás dokumenty o detailech zisku medailí Janicou či Ivicem Kosteličovými na olympiádě v Salt Lake City. Dokument musí jasně udávat název disciplíny a typ medaile: zlatá, stříbrná či bronzová.</narr>
+</top>
+<top lang="cs">
+<num>10.2452/422-AH</num>
+<title>Uzavírání průmyslových a obchodních podniků</title>
+<query>továrna OR podnik OR obchod AND uzavření</query>
+<desc>Najděte informace o skutečném či bezprostředně hrozícím uzavření továren či podniků libovolného typu.</desc>
+<narr>Relevantní dokumenty musí obsahovat důvody skutečného či hrozícího uzavření.</narr>
+</top>
+<top lang="cs">
+<num>10.2452/423-AH</num>
+<title>Alternativy očkování proti chřipce</title>
+<query>léčba AND chřipka AND NOT očkování </query>
+<desc>Najděte dokumenty, které pojednávají o alternativních přístupech k očkování proti chřipce.</desc>
+<narr>Relevantní dokumenty musí zmiňovat název či podávat detaily o navrhovaných alternativních opatřeních.</narr>
+</top>
+<top lang="cs">
+<num>10.2452/424-AH</num>
+<title>Rozvoj internetového bankovnictví</title>
+<query>internet OR internetové AND bankovnictví</query>
+<desc>Najděte dokumenty, které poskytují číselné údaje o rostoucí popularitě služeb internetového bankovnictví.</desc>
+<narr>Máme zájem o jakékoliv dokumenty, které obsahují číselné údaje o zemích, společnostech či jednotlivých klientech, kteří využívají výhod on-line či internetových bankovních služeb.</narr>
+</top>
+<top lang="cs">
+<num>10.2452/425-AH</num>
+<title>Ohrožené druhy</title>
+<query>ohrožený OR chráněný AND druh</query>
+<desc>Najděte dokumenty, které hovoří o zabíjení, pytláctví, nebo nelegálním rybolovu chráněných či ohrožených živočichů jakýchkoliv druhů (savců, ptáků či ryb).</desc>
+<narr>Relevantní dokumenty musí zmiňovat ohrožené druhy, jež jsou ohroženy nelegálními činnostmi. Dokumenty, jež se věnují zvířatům, která nejsou v nebezpečí vyhnutí, relevantní nejsou.</narr>
+</top>
+</topics>
