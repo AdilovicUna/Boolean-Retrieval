@@ -2,6 +2,7 @@ from collections import defaultdict
 from curses.ascii import isalnum
 from fileinput import filename
 import os
+from unittest import result
 
 inverted_index = defaultdict(set)
 
@@ -94,6 +95,11 @@ def loop_files(directory):
             index_one_file(f)
 
 def split_query(query):
+    """
+
+    eg. "a AND b OR c AND NOT d" -> ["a", "AND", "b", "OR", "c", "AND NOT", "d"]
+
+    """
     temp = query.split()
     result = []
     i = 0
@@ -107,24 +113,72 @@ def split_query(query):
     result.append(temp[-1])
     return result
 
-def evaluate(a, op, b):
+def _or(a,b):
+    """
 
+    implementation of the boolean operator OR
+
+    """
+    result = set([])
+    for elem in a:
+        result.add(elem)
+    for elem in b:
+        result.add(elem)
+    return result
+
+def _and(a,b):
+    """
+
+    implementation of the boolean operator AND
+
+    """
+    result = set([])
+    (a,b) = (b,a) if len(a) > len(b) else (a,b)
+
+    for elem in a:
+        if elem in b:
+            result.add(elem)
+    return result
+
+def _and_not(a,b):
+    """
+
+    implementation of the boolean operator AND NOT
+
+    """
+    result = set([])
+    for elem in a:
+        if not elem in b:
+            result.add(elem)
+    return result
+
+def eval_atomic_query(a, op, b):
+    """
+
+    evaluates atomic query
+
+    """
     if type(a) is str:
         a = inverted_index[a]
     if type(b) is str:
         b = inverted_index[b]
 
     if op == "AND":
-        return a.intersection(b)
+        return _and(a,b)
     if op == "OR":
-        return a.union(b)
+        return _or(a,b)
     if op == "AND NOT":
-        return a - b
+        return _and_not(a,b)
 
 def eval_query(query):
+    """
+
+    evaluate the query from left to right
+
+    """
     if len(query) == 3:
-        return evaluate(query[0], query[1], query[2])
-    return evaluate(query[0], query[1], eval_query(query[2:]))
+        return eval_atomic_query(query[0], query[1], query[2])
+    return eval_atomic_query(eval_query(query[:-2]), query[-2], query[-1])
      
 def loop_query_file(filepath):
     """
@@ -150,11 +204,11 @@ def loop_query_file(filepath):
         elif "query" in line:
             query = strip_tag("query", line)
             doc_ids = eval_query(split_query(query))
-            s = "a"
+            s = ""
             for id in doc_ids:
                 s += id + '\n'
 
-            with open(os.path.join(directory, filename + ".txt"), "w") as file:
+            with open(os.path.join(directory, filename), "w") as file:
                 file.write(s)
             file.close()
 
