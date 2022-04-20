@@ -1,8 +1,6 @@
 from collections import defaultdict
 from curses.ascii import isalnum
-from fileinput import filename
 import os
-from unittest import result
 
 inverted_index = defaultdict(set)
 
